@@ -50,7 +50,7 @@
 
 .front-title {
     position: absolute;
-    top: 10px; /* Adjust as needed */
+    top: 10px;
     left: 10px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
@@ -181,6 +181,7 @@
     border-radius: var(--border-radius-2); /* Add border radius */
     transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Smooth transition */
     cursor: pointer; /* Show pointer cursor on hover */
+    z-index: 50px;
 }
 
 .view-button:hover {

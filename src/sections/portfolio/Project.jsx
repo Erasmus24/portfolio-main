@@ -1,5 +1,3 @@
-// import Card from '../../components/Card'; // Uncomment if you plan to use Card
-
 const Project = ({ project }) => {
   return (
     <div className="flip-card">
@@ -18,7 +16,7 @@ const Project = ({ project }) => {
             <p>{project.desc}</p>
           </div>
           <a 
-            href={project.demo} // Ensure this points to the correct demo URL
+            href={project.demo} 
             className="btn view-button"
             target="_blank"
             rel="noopener noreferrer"
