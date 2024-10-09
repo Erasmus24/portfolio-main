@@ -14,7 +14,6 @@
     transform: translateY(0);
 }
 
-
 .portfolio__projects {
     margin-top: 3rem;
     display: grid;
@@ -37,7 +36,7 @@
 }
 
 .portfolio__project-image {
-    position: relative;
+    position: relative; /* Positioning context for .front-title */
     width: 100%;
     height: 100%;
     min-height: 7rem;
@@ -51,14 +50,13 @@
 
 .front-title {
     position: absolute;
-   background-color: inherit;
-   top: 235px;
-   left: 10px;
-   color: white;
-   background-color: rgba(0, 0, 0, 0.5);
-   padding: 0.5rem;
-   z-index: 2;
-   border-radius: var(--border-radius-2);
+    top: 10px; /* Adjust as needed */
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    z-index: 2;
+    border-radius: var(--border-radius-2);
 }
 
 .portfolio__project p {
@@ -80,7 +78,6 @@
     border-color: var(--color-primary);
 }
 
-
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
     .portfolio__projects {
@@ -88,7 +85,6 @@
         gap: 2rem;
     }
 }
-
 
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
@@ -104,6 +100,15 @@
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
+
+    .flip-card {
+        width: 100%; /* Make flip-card responsive */
+        height: auto;
+    }
+
+    .flip-card-inner {
+        height: 100%;
+    }
 }
 
 .flip-card {
@@ -111,9 +116,9 @@
     width: 300px;
     height: 300px;
     perspective: 1000px;
-  }
-  
-  .flip-card-inner {
+}
+
+.flip-card-inner {
     position: relative;
     width: 100%;
     height: 100%;
@@ -121,36 +126,32 @@
     transition: transform 0.6s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-   
     border-radius: var(--border-radius-2);
-    
-  }
-  
-  .flip-card:hover .flip-card-inner {
+}
+
+.flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-  }
-  
-  .flip-card-front,
-  .flip-card-back {
+}
+
+.flip-card-front,
+.flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     border-radius: var(--border-radius-2);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
+}
+
+.flip-card-front {
     background-color: #bbb;
     color: black;
-    border: 1px solid;
+    border: 1px solid var(--color-primary);
     border-radius: var(--border-radius-2);
-    border-color: var(--color-primary);
-  }
-  
-  .flip-card-back {
+}
+
+.flip-card-back {
     background: var(--color-primary);
-    /* background-color: #2980b9; */
     color: white;
     transform: rotateY(180deg);
     display: flex; /* Use flexbox to align items */
@@ -158,25 +159,32 @@
     justify-content: space-between; /* Space between title, desc, and button */
     padding: 1rem; /* Add padding for better spacing */
     text-align: left;
-  }
+    border-radius: var(--border-radius-2); /* Ensure border radius matches front */
+}
 
+.flip-card-back h3 {
+    margin: 0; /* Remove default margin */
+}
 
-  .view-button {
-    margin-top: auto; /* Push button to the bottom */
+.flip-card-back p {
+    flex-grow: 1; /* Allow paragraph to take available space */
+    margin: 0.5rem 0 1rem; /* Adjust margins as needed */
+}
+
+.view-button {
     align-self: flex-end; /* Align button to the right */
     padding: 0.5rem 1rem; /* Add padding for the button */
-    text-transform: uppercase; /* Optional: capitalize the button text */
-    background-color: var(--color-primary); /* Set button background */
+    text-transform: uppercase; /* Capitalize button text */
+    background-color: var(--color-primary); /* Set button background color */
     color: white; /* Set button text color */
     border: none; /* Remove border */
     border-radius: var(--border-radius-2); /* Add border radius */
-    transition: background-color 0.3s; /* Add transition for hover effect */
-    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Smooth transition */
+    cursor: pointer; /* Show pointer cursor on hover */
 }
 
 .view-button:hover {
-    background-color: var(--color-black); /* Darken background on hover */
-    color: var(--color-light); /* Change text color if needed */
+    background-color: #0056b3; /* Manually set a darker shade */
+    color: var(--color-light); /* Optional: change text color */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow effect on hover */
-    cursor: pointer;
 }
