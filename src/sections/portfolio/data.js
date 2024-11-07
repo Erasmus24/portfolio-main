@@ -1,22 +1,40 @@
 const data = [
+    // {
+    //     id: 1,
+    //     category: 'Angular',
+    //     frontTitle: "First Sushi Man",
+    //     image: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2hiODVnb2NjODQzMG40dThwMWF0dWpuM3FyZnE3bnUweTJ2a3g4YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KmPevfkpkmaoo/giphy.webp",
+    //     title: "First Sushi Man",
+    //     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+    //     demo: 'https://firstsushiman.netlify.app/'
+    // },
     {
         id: 1,
-        category: 'Angular',
-        frontTitle: "Faster Food",
-        image: "https://media1.giphy.com/media/3o7btUDtnx3gTwIlmo/giphy.webp?cid=ecf05e475ksfdza4evmgtx35c9i5xp9sf1gz6xwxno71odql&ep=v1_gifs_search&rid=giphy.webp&ct=g",
-        title: "Project Title One (UIUX)",
+        category: 'React',
+        frontTitle: "Style King",
+        image: "https://media0.giphy.com/media/vlYZYUxO3Pt92WEeGw/giphy.webp?cid=ecf05e475wlxp9mgk0obct2wasgts5550fqkbpzjsfcyzz75&ep=v1_gifs_search&rid=giphy.webp&ct=g",
+        title: "Style King",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_glowing_text'
+        demo: 'https://styleking.netlify.app/'
     },
     {
         id: 2,
-        category: 'React',
-        frontTitle: "Hot Pot",
-        image: "https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif",
-        title: "Project Title Two (Frontend)",
+        category: '.Net Core',
+        frontTitle: "Cyber TV",
+        image: "https://media1.giphy.com/media/3o7ZerwmoQUdMdPE7S/giphy.webp?cid=ecf05e47z7p8zed75ngksmw59xx3w6es1rynw85z18pmd2xq&ep=v1_gifs_search&rid=giphy.webp&ct=g",
+        title: "Cyber TV",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'https://freefrontend.com/css-cards/page/5/'
+        demo: 'https://cyber-tv.netlify.app/'
     },
+    // {
+    //     id: 2,
+    //     category: 'React',
+    //     frontTitle: "Hot Pot",
+    //     image: "https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif",
+    //     title: "Project Title Two (Frontend)",
+    //     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+    //     demo: 'https://freefrontend.com/css-cards/page/5/'
+    // },
     {
         id: 3,
         category: 'React',
@@ -24,16 +42,16 @@ const data = [
         image: "https://media3.giphy.com/media/ynn7Z9nOxTJRu/giphy.webp?cid=ecf05e47kedvjsdhqqhzw9fhyqfimzjl4kvjrsgus5ekccsg&ep=v1_gifs_related&rid=giphy.webp&ct=g",
         title: "Project Title Three (Frontend)",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'https://www.cars.co.za/'
+        demo: 'https://carrrent.netlify.app/'
     },
     {
         id: 4,
         category: 'Angular',
-        frontTitle: "This frot",
-        image: "https://media4.giphy.com/media/26n6YbzFnQfxTWD0A/giphy.webp?cid=ecf05e47vy9by2sycxojvtf6ydngiiwhdhd5hxsm2mct6ep1&ep=v1_gifs_related&rid=giphy.webp&ct=g",
+        frontTitle: "Storysphere",
+        image: "https://media4.giphy.com/media/DPH2d2WQsvTVEDVa2p/giphy.webp?cid=ecf05e475a0ptgqylbeu81cw8onzf5ofulzavd07i6ck4r15&ep=v1_gifs_search&rid=giphy.webp&ct=g",
         title: "Project Title Four (UIUX)",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card'
+        demo: 'https://story-sphere-books.vercel.app/'
     },
     {
         id: 5,
@@ -44,33 +62,33 @@ const data = [
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
         demo: 'https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_hide_scroll'
     },
-    {
-        id: 6,
-        category: 'React',
-        frontTitle: "Crown Clothing",
-        image: "https://media0.giphy.com/media/vlYZYUxO3Pt92WEeGw/giphy.webp?cid=ecf05e475wlxp9mgk0obct2wasgts5550fqkbpzjsfcyzz75&ep=v1_gifs_search&rid=giphy.webp&ct=g",
-        title: "Project Title Six (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'https://www.w3schools.com/howto/tryhow_css_parallax_demo_none.htm'
-    },
+    // {
+    //     id: 6,
+    //     category: 'React',
+    //     frontTitle: "Style King",
+    //     image: "https://media0.giphy.com/media/vlYZYUxO3Pt92WEeGw/giphy.webp?cid=ecf05e475wlxp9mgk0obct2wasgts5550fqkbpzjsfcyzz75&ep=v1_gifs_search&rid=giphy.webp&ct=g",
+    //     title: "Style King",
+    //     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+    //     demo: 'https://styleking.netlify.app/'
+    // },
     {
         id: 7,
         category: 'React',
-        frontTitle: "This frot",
-        image: "https://media3.giphy.com/media/h3pIXYEp3LCDr1wG3r/giphy.webp?cid=790b7611wmdkx2v3cqk4v31st0v74cy66x124olgbbbibc00&ep=v1_gifs_search&rid=giphy.webp&ct=g",
-        title: "Project Title Seven (Frontend)",
+        frontTitle: "Weather Man",
+        image: "https://media0.giphy.com/media/13ZEwDgIZtK1y/giphy.webp?cid=ecf05e471ikz4gklhaer8p7zz4otf5vm26p9cn4aiwl9bt1k&ep=v1_gifs_search&rid=giphy.webp&ct=g",
+        title: "Weather Man",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_equal_height'
+        demo: 'https://weather-mann.netlify.app/'
     },
-    {
-        id: 8,
-        category: '.Net Core',
-        frontTitle: "Cyber TV",
-        image: "https://media1.giphy.com/media/3o7ZerwmoQUdMdPE7S/giphy.webp?cid=ecf05e47z7p8zed75ngksmw59xx3w6es1rynw85z18pmd2xq&ep=v1_gifs_search&rid=giphy.webp&ct=g",
-        title: "Project Title Eight (Backend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_typewriter'
-    },
+    // {
+    //     id: 8,
+    //     category: '.Net Core',
+    //     frontTitle: "Cyber TV",
+    //     image: "https://media1.giphy.com/media/3o7ZerwmoQUdMdPE7S/giphy.webp?cid=ecf05e47z7p8zed75ngksmw59xx3w6es1rynw85z18pmd2xq&ep=v1_gifs_search&rid=giphy.webp&ct=g",
+    //     title: "Cyber TV",
+    //     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+    //     demo: 'https://cyber-tv.netlify.app/'
+    // },
     {
         id: 8,
         category: 'Vue',

@@ -1,33 +1,33 @@
 const data = [
     {
       id: 1,
-      question: "What do you need to start working on my project?",
-      answer: "It mostly depends on the type of project. But in general, you need a fair idea of what you want, then we can take it from there."
+      question: "What is your experience as a Senior Software Engineer?",
+      answer: "I have extensive experience in software development, working on various projects involving web development, coding, and software architecture."
     },
     {
       id: 2,
-      question: "How long will my project take to complete?",
-      answer: "This depends on the complexity of the project, your available, and your payment. Once you have this sorted out, I will give you a completion date."
+      question: "What programming languages are you proficient in?",
+      answer: "I am proficient in languages such as JavaScript, TypeScript, Python, and Java, with a strong focus on frameworks like React for front-end development."
     },
     {
       id: 5,
-      question: "Is hosting and domain registration inclusive in your pricing?",
-      answer: "No! Hosting and domain is taken care of seperately. You can pay for it or take care of it on your own if you know how to."
+      question: "What development methodologies do you typically use?",
+      answer: "I commonly use Agile methodologies, including Scrum and Kanban, to ensure efficient project management and timely delivery of software products."
     },
     {
       id: 4,
-      question: "How much do you charge for an average website or app?",
-      answer: "Once again, this depends. But my prices are affordable so you're good."
+      question: "How do you approach solving complex technical problems?",
+      answer: "I analyze the issue thoroughly, break it down into smaller components, and apply structured problem-solving techniques, often involving research and collaboration with other team members."
     },
     {
       id: 3,
-      question: "What's your payment plan?",
-      answer: "Payment is divided into 3. An initial 30% upfront payment to get me started once all the details of the projec is set, 40% once the project is completed, and 30% once the project is delivered."
+      question: "What tools and technologies do you frequently work with?",
+      answer: "I work with a variety of tools including Git for version control, Docker for containerization, and Cypress for testing, among other modern development tools."
     },
     {
       id: 6,
-      question: "What if the project doesn't turn out good?",
-      answer: "You will be a part of the process from the start. You will know how the whole project is going until the end. And I will make sure to give you the best."
+      question: "How do you ensure code quality and maintainability?",
+      answer: "I adhere to coding best practices, conduct regular code reviews, and implement unit and integration testing to maintain a high standard of code quality."
     }
   ]
 
