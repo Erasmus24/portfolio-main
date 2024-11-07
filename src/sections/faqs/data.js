@@ -28,6 +28,26 @@ const data = [
       id: 6,
       question: "How do you ensure code quality and maintainability?",
       answer: "I adhere to coding best practices, conduct regular code reviews, and implement unit and integration testing to maintain a high standard of code quality."
+    },
+    {
+      id: 7,
+      question: "What is your experience with cloud platforms?",
+      answer: "I have experience deploying and managing applications on cloud platforms like AWS, Azure, and Google Cloud, using services such as EC2, S3, and Kubernetes."
+    },
+    {
+      id: 8,
+      question: "How do you stay updated with the latest industry trends and technologies?",
+      answer: "I continuously learn through online courses, reading tech blogs, attending webinars, and participating in developer communities to stay current with the latest trends."
+    },
+    {
+      id: 9,
+      question: "What is your approach to mentoring junior developers?",
+      answer: "I focus on guiding junior developers through code reviews, pair programming, and sharing knowledge on best practices and industry standards to help them grow."
+    },
+    {
+      id: 10,
+      question: "What types of projects do you enjoy working on the most?",
+      answer: "I enjoy working on challenging projects that involve building scalable web applications, optimizing performance, and implementing innovative solutions to complex problems."
     }
   ]
 
