@@ -11,7 +11,7 @@ const Header = () => {
         </div>
         <h3>Erasmus Hadebe</h3>
         <p>
-        Hi, I'm Sphiwe Erasmus Hadebe, a Senior Software Engineer specializing in building high-performance, scalable, and user-centric web applications.
+        Hi, I'm Sphiwe Erasmus Hadebe, a Senior Software Engineer specializing in building high-performance, scalable, and user-centric web applications. &#128187;
 
         </p>
         <div className="header__cta">

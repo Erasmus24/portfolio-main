@@ -31,7 +31,16 @@ const About = () => {
              
                 </p>
                 <p>
-                I am a successful Senior Full Stack Web Developer with extensive expertise in both front-end and back-end development. I excel in creating visually appealing and user-friendly web interfaces using HTML, CSS, and JavaScript, with a strong focus on React and Angular. On the back-end, I leverage Node.js, SQL and/or C# .Net framework to build scalable and efficient server-side applications, ensuring seamless data integration and functionality. My versatility in utilizing a wide range of programming languages and technologies, coupled with strong communication skills, makes me a collaborative team player who thrives in cross-functional environments. I am committed to continuous learning, staying current with industry trends, and delivering exceptional results in web development projects.
+                I am a successful Senior Full Stack Web Developer with extensive expertise in
+                 both front-end and back-end development. I excel in creating visually appealing
+                  and user-friendly web interfaces using HTML, CSS, and JavaScript, with a strong
+                   focus on React and Angular. On the back-end, I leverage Node.js, SQL and/or C#
+                    .Net framework to build scalable and efficient server-side applications, ensuring
+                     seamless data integration and functionality. My versatility in utilizing a wide
+                      range of programming languages and technologies, coupled with strong communication
+                       skills, makes me a collaborative team player who thrives in cross-functional environments.
+                        I am committed to continuous learning, staying current with industry trends, and
+                         delivering exceptional results in web development projects. &#129299;
                 </p>
                 <a href={CV} download className='btn primary'>Download CV <HiDownload/></a>
             </div>
