@@ -6,16 +6,16 @@ import {AiFillAppstore} from 'react-icons/ai'
 
 const data = [
     {
-        id: 1, icon: <SiAdobexd/>, title: 'UI/UX Design', desc: "My designs are modern and intuitive. I use industry-standard rules to make sure your users have fun using your product."
+        id: 1, icon: <SiAdobexd/>, title: 'UI/UX Design', desc: "UI/UX Design focuses on creating intuitive, user-friendly, and aesthetically pleasing digital experiences. I combine creativity with user-centric design principles to deliver interfaces that not only look great but also enhance usability and engagement."
     },
     {
-        id: 2, icon: <RiReactjsLine/>, title: 'Frontend Development', desc: "Your product will look good and will be accessible on all devices, including mobile phones, tablets, and desktop."
+        id: 2, icon: <RiReactjsLine/>, title: 'Front-End Development', desc: "Front-End Development is the heart of user experience. I specialize in crafting responsive, dynamic, and visually appealing interfaces that bridge design and functionality, ensuring seamless interaction across devices and platforms."
     },
     {
-        id: 3, icon: <FaServer/>, title: 'Backend Development', desc: "The security of your business/product is taken seriously right from the start of the project. I will make sure your website/app is secure from attacks."
+        id: 3, icon: <FaServer/>, title: 'Cloud Computing', desc: "Cloud Computing empowers businesses with scalable, secure, and efficient solutions. I leverage cloud technologies to build robust applications, streamline workflows, and ensure seamless integration across distributed environments."
     },
     {
-        id: 4, icon: <AiFillAppstore/>, title: 'App Development', desc: 'Unlike other developers in the market, I will building an app that runs on both IOS and Android devices without any extra cost to you.'
+        id: 4, icon: <AiFillAppstore/>, title: 'Mobile Development', desc: 'Mobile Development is about bringing ideas to life on the go. I create high-performance, user-friendly mobile applications tailored to deliver exceptional experiences across iOS and Android platforms.'
     }
 ]
 
