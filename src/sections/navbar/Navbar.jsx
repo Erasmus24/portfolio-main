@@ -14,7 +14,7 @@ const Navbar = () => {
     setIsShaking(true);
     const timer = setTimeout(() => {
       setIsShaking(false); // Stop the animation after 4 seconds
-    }, 4000);
+    }, 5000);
 
     return () => clearTimeout(timer); // Cleanup timer on component unmount
   }, []);

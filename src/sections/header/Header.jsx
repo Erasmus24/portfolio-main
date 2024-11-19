@@ -1,13 +1,17 @@
 import HeaderImage from '../../assets/Erasmus_Hadebe.jpg'
+import logo1 from '../../assets/logo1.svg'
 import data from './data'
 import './header.css'
 
 const Header = () => {
   return (
     <header id="header">
+    
       <div className="container header__container">
+      
         <div className="header__profile">
           <img src={HeaderImage} alt="Header Portait" />
+          
         </div>
         <h3>Erasmus Hadebe</h3>
         <p>
@@ -17,6 +21,7 @@ const Header = () => {
         <div className="header__cta">
           <a href="#contact" className='btn primary'>Contact Me</a>
           <a href="#portfolio" className='btn light'>Projects</a>
+          
         </div>
         <div className="header__socials">
           {

@@ -96,8 +96,8 @@ nav {
 }
 
 .shake {
-  animation: shakeAndScale 0.5s ease-in-out;
-  animation-iteration-count: 8; /* 4 seconds duration */
+  animation: shakeAndScale 2.5s ease-in-out;
+  animation-iteration-count: 10; /* 4 seconds duration */
 }
 
 
