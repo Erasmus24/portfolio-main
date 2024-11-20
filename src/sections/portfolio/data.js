@@ -1,13 +1,13 @@
 const data = [
-    // {
-    //     id: 1,
-    //     category: 'Angular',
-    //     frontTitle: "First Sushi Man",
-    //     image: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2hiODVnb2NjODQzMG40dThwMWF0dWpuM3FyZnE3bnUweTJ2a3g4YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KmPevfkpkmaoo/giphy.webp",
-    //     title: "First Sushi Man",
-    //     desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-    //     demo: 'https://firstsushiman.netlify.app/'
-    // },
+    {
+        id: 1,
+        category: 'Angular',
+        frontTitle: "First Sushi Man",
+        image: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2hiODVnb2NjODQzMG40dThwMWF0dWpuM3FyZnE3bnUweTJ2a3g4YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KmPevfkpkmaoo/giphy.webp",
+        title: "First Sushi Man",
+        desc: "A sushi shop website template made using HTML and CSS, featuring a clean, responsive design to showcase menu items, special offers, and contact information, with an engaging layout optimized for desktop and mobile users.",
+        demo: 'https://firstsushiman.netlify.app/'
+    },
     {
         id: 1,
         category: 'React',
