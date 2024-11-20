@@ -7,7 +7,7 @@ import { useState } from 'react'
 const Portfolio = () => {
   const [projects, setProjects] = useState(data);
 
-  const categories = data.map(item => item.category);
+  //const categories = data.map(item => item.category);
   //const uniqueCategories = ["all", ...new Set(categories)];
   
   // const filterProjectsHandler = (category) => {

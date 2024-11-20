@@ -7,7 +7,7 @@ const data = [
     {
       id: 2,
       question: "What programming languages are you proficient in?",
-      answer: "I am proficient in languages such as JavaScript, TypeScript, Python, and Java, with a strong focus on frameworks like React for front-end development."
+      answer: "I am proficient in languages such as JavaScript, TypeScript, Python, and C#, with a strong focus on frameworks like React for front-end development."
     },
     {
       id: 5,
