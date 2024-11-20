@@ -1,5 +1,5 @@
 import HeaderImage from '../../assets/Erasmus_Hadebe.jpg'
-import logo1 from '../../assets/logo1.svg'
+//import logo1 from '../../assets/logo1.svg'
 import data from './data'
 import './header.css'
 
